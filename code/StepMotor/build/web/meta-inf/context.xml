@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+  <Context path="/StepMotor" docBase="StepMotor">
+
+           <Manager className="org.apache.catalina.session.PersistentManager"
+                  saveOnRestart="false"
+                  maxActiveSessions="-1"
+                  minIdleSwap="-1"
+                  maxIdleSwap="-1"
+                  maxIdleBackup="-1">
+                <Store className="org.apache.catalina.session.FileStore"/>
+           </Manager>
+
+</Context>
+  
