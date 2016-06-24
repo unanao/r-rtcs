@@ -1,6 +1,6 @@
 # Remote realtime control system based on loongson
 
-In 2009, the project is a product for cscup(http://cscup.iscas.ac.cn).
+In 2009, the project when we are in college.
 
 Designer and developer:
 
