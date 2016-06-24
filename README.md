@@ -15,7 +15,6 @@ Control ui:
 ![Login](https://github.com/unanao/remote-rt-control-system/blob/master/image/login.png)
 
 ## Real time 
-RT-PREEMPT kernel patch to make sure 
 `
 With Ingo Molnar's Realtime Preemption patch (referenced to as RT-Preempt in this document) and Thomas Gleixner's generic clock event layer with high resolution support, the kernel gains hard realtime capabilities.The RT-Preempt patch converts Linux into a fully preemptible kernel. The magic is done with: 
 Making in-kernel locking-primitives (using spinlocks) preemptible though reimplementation with rtmutexes: 
